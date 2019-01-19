@@ -1,0 +1,32 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-to-image": "^1.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.1",
+    "mongojs": "^2.6.0",
+    "multer": "^1.3.1",
+    "nodemailer": "^4.6.7",
+    "paypal-rest-sdk": "^1.8.1",
+    "pug": "^2.0.3",
+    "smtp-server": "^3.4.7",
+    "stripe": "^6.7.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
